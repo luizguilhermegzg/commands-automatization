@@ -7,10 +7,11 @@ int main(){
     char commit[1024] = "git commit -m ";
     char summary[51];
     printf("Commit summary: ");
-    fgets(summary, sizeof(summary), stdin);
+    scanf("%s", summary);
+    strcat(commit, "'");
     strcat(summary, "'");
-    printf("%s", summary);
-    //system(commit);
-    //system("git push");
+    strcat(commit, summary);
+    system(commit);
+    system("git push");
     return 0;
 }
