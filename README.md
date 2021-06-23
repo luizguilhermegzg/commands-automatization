@@ -1,2 +1,2 @@
-# commands-automatization
+# commands-automatizations
 Linux command line automate!
