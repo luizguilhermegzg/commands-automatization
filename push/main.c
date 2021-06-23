@@ -12,6 +12,6 @@ int main(){
     strcat(commit, summary);
     system(commit);
     system("git push");
-    printf("\nSucceful!!!");
+    printf("\nSucceful!!!\n");
     return 0;
 }
