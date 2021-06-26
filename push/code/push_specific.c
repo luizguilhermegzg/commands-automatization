@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 int main(){
-    char to_add[1024];
-    char git_add[2048] = "git add ";
+    char to_add[270];
+    char git_add[250] = "git add ";
     char git_commit[66] = "git commit -m ";
     char summary[51];
     printf("Wish files will be commited: ");

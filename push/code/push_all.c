@@ -3,8 +3,8 @@
 #include <string.h>
 int main(){
     system("git add .");
-    char commit[66] = "git commit -m ";
-    char summary[51];
+    char commit[270] = "git commit -m ";
+    char summary[256];
     printf("Commit summary [50 character limit]: ");
     fgets(summary, sizeof(summary), stdin);
     strcat(commit, "'");
